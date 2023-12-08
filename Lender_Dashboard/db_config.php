@@ -3,7 +3,7 @@ Class dbObj{
 	/* Database connection start */
 	var $dbhost = "localhost";
 	var $username = "root";
-	var $password = "1234";
+	var $password = "";
 	var $dbname = "lending_system";
 	var $conn;
 	function getConnstring() {
@@ -20,7 +20,7 @@ Class dbObj{
 }
           $host = "localhost";
           $username = "root";
-          $password = "1234";
+          $password = "";
           $db_name = "lending_system";
 
           $conn = mysqli_connect($host,$username,$password,$db_name);
@@ -34,7 +34,7 @@ Class dbObj{
           }
           $DB_HOST = "localhost";
           $DB_USER = "root";
-          $DB_PASS = "1234";
+          $DB_PASS = "";
           $DB_NAME = "lending_system";
       
           try{

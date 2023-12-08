@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $dbusername = "root";
-$dbpassword = "1234";
+$dbpassword = "";
 $databasename = "lending_system";
 
 $conn = mysqli_connect($servername, $dbusername, $dbpassword, $databasename);
@@ -13,3 +13,4 @@ if (!$conn) {
 }
 
 ?>
+
